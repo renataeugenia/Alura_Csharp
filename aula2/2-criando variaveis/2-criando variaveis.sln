@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-criando variaveis", "2-criando variaveis.csproj", "{9D59B913-E56D-42F3-AA91-091250E01154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-criando variaveis", "2-criando variaveis.csproj", "{9D59B913-E56D-42F3-AA91-091250E01154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3- variaveis ponto flutuante", "..\3- variaveis ponto flutuante\3- variaveis ponto flutuante.csproj", "{139123B0-4FAE-4F96-B7DC-4EFB12F292F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3- variaveis ponto flutuante", "..\3- variaveis ponto flutuante\3- variaveis ponto flutuante.csproj", "{139123B0-4FAE-4F96-B7DC-4EFB12F292F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4- conversões e outros tipos", "..\4- conversões e outros tipos\4- conversões e outros tipos.csproj", "{B7C161FF-6171-44BF-87C7-F58D31AC8C60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4- conversões e outros tipos", "..\4- conversões e outros tipos\4- conversões e outros tipos.csproj", "{B7C161FF-6171-44BF-87C7-F58D31AC8C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5- strings e caracteres", "..\5- strigs e caracteres\5- strings e caracteres.csproj", "{C056524B-D385-4AE3-932B-27356D20FC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 - condicionais_IF_ELSE", "..\6 - condicionais_IF\6 - condicionais_IF_ELSE.csproj", "{340A6842-4F4F-4F19-BF4D-D3549EDE62B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 - condicionais com booleanos", "..\7 - condicionais com booleanos\7 - condicionais com booleanos.csproj", "{978B5087-3C78-470F-A3E6-DFA5848DCA5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{B7C161FF-6171-44BF-87C7-F58D31AC8C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7C161FF-6171-44BF-87C7-F58D31AC8C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7C161FF-6171-44BF-87C7-F58D31AC8C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C056524B-D385-4AE3-932B-27356D20FC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C056524B-D385-4AE3-932B-27356D20FC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C056524B-D385-4AE3-932B-27356D20FC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C056524B-D385-4AE3-932B-27356D20FC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340A6842-4F4F-4F19-BF4D-D3549EDE62B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340A6842-4F4F-4F19-BF4D-D3549EDE62B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340A6842-4F4F-4F19-BF4D-D3549EDE62B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340A6842-4F4F-4F19-BF4D-D3549EDE62B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978B5087-3C78-470F-A3E6-DFA5848DCA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978B5087-3C78-470F-A3E6-DFA5848DCA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978B5087-3C78-470F-A3E6-DFA5848DCA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978B5087-3C78-470F-A3E6-DFA5848DCA5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
