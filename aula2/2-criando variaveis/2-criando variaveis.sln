@@ -9,11 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3- variaveis ponto flutuant
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4- conversões e outros tipos", "..\4- conversões e outros tipos\4- conversões e outros tipos.csproj", "{B7C161FF-6171-44BF-87C7-F58D31AC8C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5- strings e caracteres", "..\5- strigs e caracteres\5- strings e caracteres.csproj", "{C056524B-D385-4AE3-932B-27356D20FC2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5- strings e caracteres", "..\5- strigs e caracteres\5- strings e caracteres.csproj", "{C056524B-D385-4AE3-932B-27356D20FC2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 - condicionais_IF_ELSE", "..\6 - condicionais_IF\6 - condicionais_IF_ELSE.csproj", "{340A6842-4F4F-4F19-BF4D-D3549EDE62B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6 - condicionais_IF_ELSE", "..\6 - condicionais_IF\6 - condicionais_IF_ELSE.csproj", "{340A6842-4F4F-4F19-BF4D-D3549EDE62B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 - condicionais com booleanos", "..\7 - condicionais com booleanos\7 - condicionais com booleanos.csproj", "{978B5087-3C78-470F-A3E6-DFA5848DCA5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7 - condicionais com booleanos", "..\7 - condicionais com booleanos\7 - condicionais com booleanos.csproj", "{978B5087-3C78-470F-A3E6-DFA5848DCA5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8 - lacoWhile_calculoPoupanca", "..\8 - lacoWhile_calculoPoupanca\8 - lacoWhile_calculoPoupanca.csproj", "{EA697216-D646-450E-9902-6D74D1B732E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9 - lacoFor_calculoPoupanca", "..\9 - lacoFor_calculoPoupanca\9 - lacoFor_calculoPoupanca.csproj", "{5C1E7185-D6BD-4900-A777-82684911FA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p10 - lacoForEncadeado_investimentoLongoPrazo", "..\p10 - lacoForEncadeado_investimentoLongoPrazo\p10 - lacoForEncadeado_investimentoLongoPrazo.csproj", "{E446B6E6-13AC-48D3-9374-CA0E7496AD20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p11- usoDoBreak_encadeamentoFor", "..\p11- usoDoBreak_encadeamentoFor\p11- usoDoBreak_encadeamentoFor.csproj", "{C4683321-998F-4FB2-9A00-4E17AC2E71D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{978B5087-3C78-470F-A3E6-DFA5848DCA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{978B5087-3C78-470F-A3E6-DFA5848DCA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{978B5087-3C78-470F-A3E6-DFA5848DCA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA697216-D646-450E-9902-6D74D1B732E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA697216-D646-450E-9902-6D74D1B732E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA697216-D646-450E-9902-6D74D1B732E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA697216-D646-450E-9902-6D74D1B732E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1E7185-D6BD-4900-A777-82684911FA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1E7185-D6BD-4900-A777-82684911FA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1E7185-D6BD-4900-A777-82684911FA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1E7185-D6BD-4900-A777-82684911FA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E446B6E6-13AC-48D3-9374-CA0E7496AD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E446B6E6-13AC-48D3-9374-CA0E7496AD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E446B6E6-13AC-48D3-9374-CA0E7496AD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E446B6E6-13AC-48D3-9374-CA0E7496AD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4683321-998F-4FB2-9A00-4E17AC2E71D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4683321-998F-4FB2-9A00-4E17AC2E71D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4683321-998F-4FB2-9A00-4E17AC2E71D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4683321-998F-4FB2-9A00-4E17AC2E71D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
