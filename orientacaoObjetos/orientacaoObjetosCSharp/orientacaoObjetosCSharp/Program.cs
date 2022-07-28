@@ -62,25 +62,42 @@ Console.WriteLine();
 //Console.WriteLine($"Saldo da Renata pós-transferencia : R$ {String.Format("{0:0.00}", conta1.saldo)}");
 
 
-Cliente cliente = new Cliente();
-cliente.nome = "Renata Eugênia";
-cliente.cpf = "16173461870";
-cliente.profissao = "Programadora";
+//Cliente cliente = new Cliente();
+//cliente.Nome = "Renata Eugênia";
+//cliente.Cpf = "16173461870";
+//cliente.Profissao = "Programadora";
 
-ContaCorrente conta3 = new ContaCorrente();
+//ContaCorrente conta3 = new ContaCorrente(7590, "2256-X");
 
-conta3.titular = cliente;
-conta3.conta = "2256 - x";
-conta3.numero_agencia = 7590;
-conta3.nome_agencia = "Angelica";
-conta3.saldo = 300;
-conta3.ativa = true;
+//conta3.Titular = cliente;
+//conta3.Nome_agencia = "Angelica";
+//conta3.Saldo = 500; 
+//conta3.ativa = true;
 
-Console.WriteLine(cliente.nome);
-Console.WriteLine(cliente.cpf);
-Console.WriteLine(cliente.profissao);
-Console.WriteLine(conta3.titular.nome);
-Console.WriteLine(conta3.saldo);
+//Console.WriteLine(" Nome: " + cliente.Nome);
+//Console.WriteLine(" Cpf: " + cliente.Cpf);
+//Console.WriteLine(" Profissão: " + cliente.Profissao);
+//Console.WriteLine(" numero agencia: " + conta3.Numero_agencia);
+//Console.WriteLine(" numero conta: " + conta3.Conta);
+//Console.WriteLine(" Saldo: R$ " + conta3.Saldo);
+
+ContaCorrente conta4 = new ContaCorrente( "Pacaembu",297, "25798-X");
+
+ContaCorrente conta5 = new ContaCorrente("Jabaquara",358, "45968-X");
+
+Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
+
+Cliente elis = new Cliente();
+elis.Nome = "Elis Angela";
+elis.Profissao = "Mergulhadora";
+elis.Cpf = "12345678";
+
+Cliente maria = new Cliente();
+maria.Nome = "Maria Helena";
+maria.Profissao = "Atriz";
+maria.Cpf = "98745612";
+
+Console.WriteLine(Cliente.TotalDeClientesCadastrados);
 
 
 Console.ReadKey();
