@@ -21,15 +21,27 @@ Console.WriteLine();
 Diretor ana = new Diretor();
 ana.Nome = "Ana Beatriz Linhares";
 ana.Cpf = "456321786";
-ana.Salario = 12750.50;
+ana.Salario = 7500.50;
 Console.WriteLine($"Nome : {ana.Nome} ");
 Console.WriteLine($"Cpf : {ana.Cpf}");
 Console.WriteLine($"Salário R$ {ana.Salario}");
 Console.WriteLine($"Bonificação: {ana.getBonificacao()}");
 
 Console.WriteLine();
+
+Funcionario helena = new Diretor();
+helena.Nome = "Helena Ferraz";
+helena.Cpf = "564798132";
+helena.Salario = 8250.50;
+Console.WriteLine($"Nome : {helena.Nome} ");
+Console.WriteLine($"Cpf : {helena.Cpf}");
+Console.WriteLine($"Salário R$ {helena.Salario}");
+Console.WriteLine($"Bonificação: {helena.getBonificacao()}");
+
+Console.WriteLine();
 gerenciador.Registrar(joao);
 gerenciador.Registrar(ana);
+gerenciador.Registrar(helena);
 
 Console.WriteLine($"Total de Bonificação : {gerenciador.getBonificacao()}");
 

@@ -6,21 +6,15 @@ using System.Threading.Tasks;
 
 namespace ProjetoAdmByteBank.Funcionarios
 {
-  public class Diretor
+  public class Diretor:Funcionario
     {
-        #region Propriedades
-
-
-        public string Nome { get; set; }
-        public string Cpf { get; set; }
-        public double Salario { get; set; }
-
-        #endregion
+      
 
         #region Metodos
-        public double getBonificacao()
+        // metodo sobrescrito classe filha e utilização da palavra base. para acessar comportamento d classe mae.
+        public override double getBonificacao()
         {
-            return Salario;
+            return Salario * 0.50 + base.getBonificacao();
         }
 
 

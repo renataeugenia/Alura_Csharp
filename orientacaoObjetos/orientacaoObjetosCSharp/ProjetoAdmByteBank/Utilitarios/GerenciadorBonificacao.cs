@@ -12,16 +12,12 @@ namespace ProjetoAdmByteBank.Utilitarios
         private double totalBonificacao;
 
         #region Sobrecarga de Metodos
+
         public void Registrar(Funcionario funcionario)
         {
             this.totalBonificacao += funcionario.getBonificacao();
         }
-
-
-        public void Registrar(Diretor diretor)
-        {
-            this.totalBonificacao += diretor.getBonificacao();
-        }
+             
         #endregion
 
 

@@ -18,10 +18,10 @@ namespace ProjetoAdmByteBank.Funcionarios
 
 
         #region Metodos
-
-        public double getBonificacao()
+        // metodo sobrescrito classe base
+        public virtual double getBonificacao()
         { 
-            return Salario * 0.1;
+            return Salario * 0.10;
         }
         #endregion
     }
